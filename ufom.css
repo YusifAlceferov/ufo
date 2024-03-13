@@ -1,0 +1,170 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Slackside+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  box-sizing: border-box;
+  list-style: none;
+}
+
+nav {
+  background-image: url(https://images.unsplash.com/photo-1656608138197-2aea23cc3564?q=80&w=1977&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 100vh;
+  flex-direction: column;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: nowrap;
+}
+.sekil1 img {
+  width: 30px;
+  height: 50px;
+  margin: 30px;
+  filter: drop-shadow(25px 20px 10px blue);
+}
+.sekil1 {
+  transition: 1s;
+}
+.sekil1:hover {
+  transform: rotateY(160deg);
+  filter: drop-shadow(25px 20px 10px rgb(91, 91, 169));
+}
+.lent_tab a {
+  padding: 40px;
+  font-family: "Slackside One", cursive;
+  font-family: "Poppins" sans-serif;
+  color: white;
+}
+.lent_tab {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+.icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  width: 5px;
+  height: 55px;
+  border: 3px;
+  border-radius: 50%;
+  padding: 30px;
+}
+.main{
+  background-image: url(https://images.unsplash.com/photo-1598482327649-e8831e1505be?q=80&w=2042&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.img5 {
+  display: flex;
+  align-items: end;
+  position: relative;
+  width: 120px;
+  height: 30vh;
+  margin: 30px;
+  border-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 3px 3px 3px 3px black;
+}
+.img5:hover {
+  transform: scale(1.2);
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.sekiller {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+h6 {
+  color: white;
+  padding: 10px;
+  font-family: "Slackside One", cursive;
+  font-family: "Poppins" sans-serif;
+}
+.img6 {
+  display: flex;
+  align-items: end;
+  position: relative;
+  width: 120px;
+  height: 30vh;
+  margin: 30px;
+  border-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 3px 3px 3px 3px black;
+  background-image: url(https://images.unsplash.com/photo-1582236829590-f8cb7de75229?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.img6:hover {
+  transform: scale(1.2);
+}
+.yazi10 {
+  margin: 60px;
+}
+.yazi10 h1 {
+  font-size: 100px;
+  color: white;
+  font-family: "Slackside One", cursive;
+  font-family: "Poppins" sans-serif;
+}
+.yazi10 h3 {
+  color: white;
+  flex-wrap: wrap;
+  font-family: "Slackside One", cursive;
+  font-family: "Poppins" sans-serif;
+}
+.img7 {
+  display: flex;
+  align-items: end;
+  position: relative;
+  width: 120px;
+  height: 30vh;
+  margin: 30px;
+  border-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 3px 3px 3px 3px black;
+  background-image: url(https://images.unsplash.com/photo-1607335614551-3062bf90f30e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+
+.img7:hover {
+  transform: scale(1.2);
+}
+.img8 {
+  display: flex;
+  align-items: end;
+  position: relative;
+  width: 120px;
+  height: 30vh;
+  margin: 30px;
+  border-radius: 15px;
+  background-position: center;
+  background-repeat: no-repeat;
+  box-shadow: 3px 3px 3px 3px black;
+  background-image: url(https://images.unsplash.com/photo-1607335614785-e1436e859ebf?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+}
+.img8:hover {
+  transform: scale(1.2);
+}
